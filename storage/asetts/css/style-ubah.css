@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Jaro:opsz@6..72&family=Lalezar&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');
+
+
+body {
+  background-image: url("../image/gudang2.jpg");
+  background-size: cover;
+  display: grid;
+  margin: 0%;
+}
+
+.logo{
+    width: 95px;
+    height: 100px;
+}
+
+.banner {
+  align-items: center;
+}
+.banner img { 
+    position: relative;
+    width: 450px;
+    height: 245px;
+    margin: -2px;
+}
+
+.banner p{
+    position: absolute;
+    top: 20px;
+    font-size: 100px;
+    margin-left: 400px;
+    margin-top: 75px;
+    font-family: "Poetsen One";
+    color: black;
+}
+
+.judul2 {
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 780px;
+  font-family: "Poetsen One";
+  color: yellow;
+}
+
+.slogan{
+    font-family: "Sriracha";
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 125px;
+    text-align: center;
+    font-size: 24px;
+    
+  }
